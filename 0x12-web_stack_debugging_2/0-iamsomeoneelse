@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <username>"
-    exit 1
-fi
-USERNAME=$1
-sudo -u $USERNAME whoami
+# Running whoami command
+su "$1" -s /bin/bash -c 'whoami'
 
