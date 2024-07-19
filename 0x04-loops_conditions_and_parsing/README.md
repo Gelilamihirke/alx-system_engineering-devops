@@ -1,1 +1,1 @@
-this is my read me file for 0x04-loops-conditions-and-parsing
+This task is about Loops Condition and Parsing
